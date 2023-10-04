@@ -37,6 +37,7 @@ namespace Tyuiu.FalinGS.Sprint2.Task0.V18
             Console.WriteLine("* Result:                                                                 #");
             Console.WriteLine("###########################################################################");
 
+
             for (int i=0; i<6; i++)
             {
                 Console.WriteLine(res[i]);
