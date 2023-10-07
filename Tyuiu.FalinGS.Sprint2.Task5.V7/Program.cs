@@ -37,6 +37,8 @@ namespace Tyuiu.FalinGS.Sprint2.Task5.V7
                 res = ("Недопустимый формат");
             }
 
+
+
             else
             {
                 res = ("Год и Mecяц = " + ds.FindMonthName(startYear, n));
