@@ -17,8 +17,9 @@ namespace Tyuiu.FalinGS.Sprint2.Task5.V7.Lib
 
             if (n > 12)
             {
-                n = (n + 1) % 12;
-                startYear = 1990 + n;
+                int year = n / 12;
+                n = n % 12;
+                startYear = 1990 + year;
                 (n, startYear).ToString();
             }
 
