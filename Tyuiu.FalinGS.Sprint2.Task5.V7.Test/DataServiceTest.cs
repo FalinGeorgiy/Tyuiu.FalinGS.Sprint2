@@ -28,16 +28,17 @@ namespace Tyuiu.FalinGS.Sprint2.Task5.V7.Test
             Assert.AreEqual("Ноябрь,1990", ds.FindMonthName(1990,11));
             Assert.AreEqual("Декабрь,1990", ds.FindMonthName(1990,12));
 
-            /*Assert.ThrowsException<ArgumentException>(() =>
-            { 
-                ds.FindMonthName(1990,-1) ;
+            Assert.ThrowsException<ArgumentException>(() =>
+            {
+                ds.FindMonthName(1990, -1);
+                throw new ArgumentException("Некорректное значение месяца");
             });
 
             Assert.ThrowsException<ArgumentException>(() =>
-            { 
-                ds.FindMonthName(1990,0);
-                Console.WriteLine("Некорректное значение месяца");
-            });*/
+            {
+                ds.FindMonthName(1990, 0);
+                throw new ArgumentException("Некорректное значение месяца");
+            });
 
 
         }
