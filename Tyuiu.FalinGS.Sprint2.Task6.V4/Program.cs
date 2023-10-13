@@ -38,6 +38,7 @@ namespace Tyuiu.FalinGS.Sprint2.Task6.V4
                 res = "Эта карта:" + ds.FindCardSuit(numCard);
             }
 
+
             Console.WriteLine("###########################################################################");
             Console.WriteLine("* Результат:                                                              #");
             Console.WriteLine("###########################################################################");

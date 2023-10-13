@@ -13,6 +13,7 @@ namespace Tyuiu.FalinGS.Sprint2.Task6.V4.Test
         {
             DataService ds = new DataService();
 
+
             Assert.AreEqual("Шестерка", ds.FindCardSuit(6));
             Assert.AreEqual("Семерка", ds.FindCardSuit(7));
             Assert.AreEqual("Восьмерка", ds.FindCardSuit(8));

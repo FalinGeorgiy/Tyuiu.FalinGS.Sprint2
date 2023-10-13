@@ -25,6 +25,7 @@ namespace Tyuiu.FalinGS.Sprint2.Task6.V4.Lib
                 case 14: return "Туз";
                 default:  throw new ArgumentException($"Карта может быть от 6 до 14 {value}"); 
 
+
             }
         }
     }
